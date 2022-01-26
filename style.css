@@ -4,7 +4,7 @@ body{
 }
 .qr-body{
     background-color: hsl(0, 0%, 100%);
-    width: 17%;
+    width: 15%;
     padding: 12px;
     border-radius: 12px;
     margin: 110px auto;
