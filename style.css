@@ -28,8 +28,47 @@ body{
 .qr-details{
     color: hsl(220, 15%, 55%);
     text-align: center;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 400;
+}
+@media only screen and (max-width: 1200px){
+    .qr-body{
+        width: 25%;
+        margin: 70px auto;
+        padding: 20px;
+    }
+    .qr-description{
+        font-size: 20px;
+    }
+    .qr-details{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 900px){
+    .qr-body{
+        width: 30%;
+        margin: 80px auto;
+        padding: 20px;
+    }
+    .qr-description{
+        font-size: 18px;
+    }
+    .qr-details{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 750px){
+    .qr-body{
+        width: 70%;
+        margin: 90px auto;
+        padding: 20px;
+    }
+    .qr-description{
+        font-size: 21px;
+    }
+    .qr-details{
+        font-size: 17px;
+    }
 }
 @media only screen and (max-width: 375px){
     .qr-body{
@@ -42,18 +81,5 @@ body{
     }
     .qr-details{
         font-size: 17px;
-    }
-}
-@media only screen and (max-width: 1200px){
-    .qr-body{
-        width: 50%;
-        margin: 90px auto;
-        padding: 20px;
-    }
-    .qr-description{
-        font-size: 30px;
-    }
-    .qr-details{
-        font-size: 26px;
     }
 }
