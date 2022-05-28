@@ -3,4 +3,4 @@
 #### Project Details
 
 * Design of a QR code scanner
-* Project of FrontEnd Mentors
+* Project of Frontend Mentor
